@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Forkbuddy</string>
+    <string name="password">Password</string>
+    <string name="sign_up_to_forkbuddy">Sign Up to Forkbuddy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan urna quis pretium sodales. Integer tincidunt dolor quis feugiat amet.</string>
+</resources>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "182550536640",
+    "firebase_url": "https://forkbuddy-6070e.firebaseio.com",
+    "project_id": "forkbuddy-6070e",
+    "storage_bucket": "forkbuddy-6070e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182550536640:android:01fad5486938a8f8",
+        "android_client_info": {
+          "package_name": "com.forkbuddy.forkbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182550536640-vjf0nnfa84ok4ru53l79oc2s38euk0n9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forkbuddy.forkbuddy",
+            "certificate_hash": "f869723349895643d26335c56c1adcb00eab819f"
+          }
+        },
+        {
+          "client_id": "182550536640-i369udvjek0qshj2ifgs8kdelld9bh9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forkbuddy.forkbuddy",
+            "certificate_hash": "7c694e67eacf96dd3f36def821d838f9b3079f82"
+          }
+        },
+        {
+          "client_id": "182550536640-ded34fsjbkse9amjjnvsfqafp7pm8iri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBHiPBJQdPX3p6GH3trNamR_x3jFq5eSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182550536640-ded34fsjbkse9amjjnvsfqafp7pm8iri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

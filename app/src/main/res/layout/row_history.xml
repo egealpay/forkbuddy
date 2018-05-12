@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="4dp"
+    android:paddingEnd="4dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:clickable="false"
+    android:longClickable="false"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="@drawable/textbg"
+        android:clickable="false"
+        android:longClickable="false"
+        >
+
+        <ImageView
+            android:id="@+id/deleteHistory"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_cancel"
+            />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="8dp"
+
+            android:src="@drawable/ic_profile"
+            android:id="@+id/historyUserPic"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@id/historyUserPic"
+            android:layout_alignTop="@id/historyUserPic"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+
+
+            >
+
+            <TextView
+                android:id="@+id/historyNameSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fork Buddy"
+                android:textStyle="bold"
+                android:textColor="@color/colorOrange"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/foodHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You ate salad with him last time."
+                android:textColor="@color/colorOrange"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/interactionLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:layout_below="@id/historyUserPic"
+
+            >
+
+            <ImageView
+                android:id="@+id/imgUpfork"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_upfork"
+                />
+
+            <TextView
+                android:id="@+id/txtUpfork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="Upfork"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorGreen"
+                android:singleLine="true"
+                />
+            <ImageView
+                android:id="@+id/imgDownfork"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_downfork"
+                android:layout_marginStart="8dp"
+                />
+
+            <TextView
+                android:id="@+id/txtDownfork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="Downfork"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorRed"
+                android:singleLine="true"
+
+                />
+
+            <ImageView
+                android:id="@+id/imgMessage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/message" />
+
+            <TextView
+                android:id="@+id/txtMessageHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="Message"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorOrange"
+                android:singleLine="true"
+
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

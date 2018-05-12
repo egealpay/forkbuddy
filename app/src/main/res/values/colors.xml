@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e46137</color>
+    <color name="colorPrimaryDark">#e46137</color>
+    <color name="colorAccent">#e46137</color>
+    <color name="background_material_light">#f5f5f5</color>
+    <color name="colorWhite">#f5f5f5</color>
+    <color name="colorOrange">#e46137</color>
+    <color name="colorRed">#ed1c24</color>
+    <color name="colorGreen">#009245</color>
+    <color name="refresh_progress_3">@color/colorOrange</color>
+</resources>
